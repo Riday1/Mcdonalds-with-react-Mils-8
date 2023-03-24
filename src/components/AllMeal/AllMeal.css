@@ -1,0 +1,36 @@
+.allMeal-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+}
+
+.meal-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+
+
+    margin: 200px 50px 0px 60px;
+}
+
+.cart-container {
+    background-color: rgba(255, 99, 71, 0.466);
+    padding: 20px 0px 0px 20px;
+
+}
+
+
+@media screen and (max-width: 1160px) {
+    .allMeal-container {
+
+        grid-template-columns: 3fr 1fr;
+
+    }
+
+    .meal-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 200px 70px 0px 100px;
+    }
+
+
+}

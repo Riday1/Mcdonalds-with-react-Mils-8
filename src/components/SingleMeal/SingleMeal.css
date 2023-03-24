@@ -1,0 +1,46 @@
+.single-meal {
+    border: 1px solid rgb(182, 179, 179);
+    width: 300px;
+    height: 510px;
+    border-radius: 7px;
+    position: relative;
+
+}
+
+.single-meal img {
+    width: 286px;
+    height: 286px;
+    margin: 7px;
+    border-radius: 7px;
+}
+
+.meal-name {
+    font-size: 21px;
+    font-weight: 600;
+
+}
+
+.meal-info p {
+    margin: 4px 0px 8px 10px;
+}
+
+.btn-order {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0px;
+    border: none;
+}
+
+.btn-order:hover {
+    background-color: rgba(255, 99, 71, 0.699);
+    color: white;
+}
+
+.btn-order p {
+    margin-right: 10px;
+
+}
